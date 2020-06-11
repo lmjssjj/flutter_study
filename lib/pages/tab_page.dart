@@ -24,6 +24,7 @@ class _TabWidgetState extends State<TabWidget>
   void initState() {
     // TODO: implement initState
     super.initState();
+    print("initstate");
     initData();
   }
 

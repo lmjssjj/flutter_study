@@ -23,6 +23,7 @@ class WebViewState extends State<WebViewWidget> {
       ),
       body: WebView(
         initialUrl: widget.url,
+        javascriptMode: JavascriptMode.unrestricted,
       ),
     );
   }

@@ -5,6 +5,7 @@ import 'package:flutterappstudy/pages/futurebuild_page.dart';
 import 'package:flutterappstudy/pages/listview_page.dart';
 import 'package:flutterappstudy/pages/navigation_page.dart';
 import 'package:flutterappstudy/pages/tab_page.dart';
+import 'package:flutterappstudy/pages/tabview_keepalive.dart';
 import 'package:flutterappstudy/pages/textfield_page.dart';
 
 void main() {
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         "/customsrcollview": (_) => CustomScrollViewWidget(),
         "/futurebuilder": (_) => FutureBuilderWidget(),
         "/listview": (_) => ListViewWiget(),
+        "/tabview_keepalive": (_) => TabViewKeepAliveWidget(),
       },
     );
   }

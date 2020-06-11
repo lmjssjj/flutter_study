@@ -11,6 +11,7 @@ class NavigationWidget extends StatelessWidget {
     listData.add(ListItem("customsrcollview使用", "/customsrcollview", Icons.tab));
     listData.add(ListItem("futurebuilder使用", "/futurebuilder", Icons.tab));
     listData.add(ListItem("listview使用", "/listview", Icons.tab));
+    listData.add(ListItem("tabview keepalive使用", "/tabview_keepalive", Icons.tab));
   }
 
   @override
